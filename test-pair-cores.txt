@@ -19,7 +19,9 @@ $ . SETPATH
 $ ./pair_cores/pair_cores.py -i test_corr1.fasta -y
 test_corr1.homology -H test_corr1.html
 Убедимся, что появились непустые файлы test_corr1.homology и test_corr1.html
-Файл test_corr1.html откроем браузером и убедимся, что там есть выравнивание.
+Файл test_corr1.html откроем браузером с включенным JavaScript и
+- Hide quoted text -
+убедимся, что там есть выравнивание.
 
 Теперь неправильный пример:
 $ ./pair_cores/pair_cores.py  -i test_wrong1.fasta -y
