@@ -17,7 +17,7 @@ $ . SETPATH
 
 Протестируем правильный пример для pair-cores:
 $ ./pair_cores/pair_cores.py -i test_corr1.fasta -y
-test_corr1.homology -H test_corr1.html
+test_corr1.homology --high-blocks-html test_corr1.html
 Убедимся, что появились непустые файлы test_corr1.homology и test_corr1.html
 Файл test_corr1.html откроем браузером с включенным JavaScript и
 - Hide quoted text -
@@ -25,7 +25,7 @@ test_corr1.homology -H test_corr1.html
 
 Теперь неправильный пример:
 $ ./pair_cores/pair_cores.py  -i test_wrong1.fasta -y
-test_wrong1.homology -H test_wrong1.html
+test_wrong1.homology --high-blocks-html test_wrong1.html
 Программа должна выдать сообщение об ошибке, смысл которого в том, что
 входной файл не удается прочитать.
 (В данном случае в файл были внесены различные загрязнения разными
