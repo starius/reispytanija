@@ -46,3 +46,14 @@ $ ./pair_cores/compare_aln_3d.py  -a wrong_ex1.fasta -b wrong_ex2.fasta
 Чтобы выполнить вышеописанные тесты в автоматическом режиме, запустите скрипт:
 $ ./test-pair-cores.sh
 
+Чтобы проводить тесты на другой машине c юниксом (Debian 6.0 (CD 1) или
+идентичным набором программ), нам понадобится:
+ * python
+ * python-biopython
+ * python-nose
+ * libjs-jquery
+ * muscle
+ * rest2web
+ * unzip
+ * wget
+
