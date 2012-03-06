@@ -53,7 +53,7 @@ $ ./test-pair-cores.sh
  * python-nose
  * libjs-jquery
  * muscle
- * dssp (dsspcmbi command)
+ * dssp (dsspcmbi command, old version, DSSPold)
  * rest2web
  * unzip
  * wget
