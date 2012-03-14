@@ -48,7 +48,9 @@ $ ./test-pair-cores.sh
 
 Чтобы проводить тесты на другой машине c юниксом (Debian 6.0 (CD 1) или
 идентичным набором программ), нам понадобится:
+ * mercurial
  * python
+ * argparse python library
  * python-biopython
  * python-nose
  * libjs-jquery
