@@ -8,6 +8,10 @@ $ make
 $ export PYTHONPATH=
 $ . SETPATH
 
+pfam_PF01270.10_Glyco_hydro_8.markup set1.fasta
+pfam_PF01273.18_LBP_BPI_CETP.markup set2.fasta
+pfam_PF01276.13_OKR_DC_1.markup set3.fasta
+
 Теперь можно запускать программы.
 Имена программ: всесто pair-cores нужно писать ./pair_cores/pair_cores.py
 Вместо compare_aln_3d следует писать ./pair_cores/compare_aln_3d.py
