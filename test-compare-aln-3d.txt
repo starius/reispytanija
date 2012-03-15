@@ -25,10 +25,10 @@ $ for i in {1..3}; do
 
 $ for i in {1..3}; do ./pair_cores/compare_aln_3d.py \
     -a set$i-muscle.fasta -b set$i-mafft.fasta | \
-    tail -n 1 > muscle-over-maffte-$i.score; done
+    tail -n 1 > muscle-over-mafft-$i.score; done
 
-Будут получены файлы muscle-over-maffte-1.score, muscle-over-maffte-2.score,
-muscle-over-maffte-3.score, в которых содержится отношение счета muscle по
+Будут получены файлы muscle-over-mafft-1.score, muscle-over-mafft-2.score,
+muscle-over-mafft-3.score, в которых содержится отношение счета muscle по
 сравнению с mafft: чем больше данное число, тем лучше muscle справился
 по сравнению с mafft (если значение равно 1, программы справились одинаково).
 
