@@ -11,7 +11,7 @@ $ . SETPATH
 Файлы set1.fasta, set2.fasta и set3.fasta были получены из выравниваний
 соответствующих семейств pfam:
 pfam_PF01270.10_Glyco_hydro_8.markup set1.fasta
-pfam_PF01273.18_LBP_BPI_CETP.markup set2.fasta
+pfam_PF02315.9_MDH.markup set2.fasta
 pfam_PF01276.13_OKR_DC_1.markup set3.fasta
 Файлы set1.fasta, set2.fasta и set3.fasta поместить в текущую папку.
 
