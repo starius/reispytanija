@@ -11,6 +11,7 @@ http://kodomo.fbb.msu.ru/hg/allpy
 Pymol:
  * остатки блоков показываются все вместе,
    хотя отделены визуально от остальных остатков
+ * p1.fasta -> set1.fasta, ...
 
 Pair-cores:
  * вместо опции -H используется опция --high-blocks-html
