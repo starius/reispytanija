@@ -9,6 +9,6 @@ export PYTHONPATH=
 
 for i in {1..3}; do
     ./pair_cores/pair_cores.py -i set$i.fasta -y set$i.homology \
-        --high-blocks-pymol set$i.pml --high-blocks-html set$i.fasta
+        --high-blocks-pymol set$i.pml --high-blocks-html set$i.html
 done
 
