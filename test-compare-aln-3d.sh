@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hg clone http://kodomo.fbb.msu.ru/hg/allpy
+hg clone --branch 1.4.2 http://kodomo.fbb.msu.ru/hg/allpy
 cp sets/set?.fasta allpy
 cd allpy
 make
